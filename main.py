@@ -2,10 +2,10 @@
 import turtle
 import game_loop
 import setup
-import directions
+
 
 setup.screen.listen()
-directions.bind_direction_keys()
+game_loop.bind_direction_keys()
 
 # Set animation in motion
 game_loop.reset()
